@@ -1,4 +1,7 @@
+ 
  import Image from "next/image"
+ import '../globals.css'
+import '../styles.css'
  import about from '@/public/images/hey wallet.png';
  import {TbBinaryTree2} from "react-icons/tb"
 import {TbBiohazard} from "react-icons/tb"

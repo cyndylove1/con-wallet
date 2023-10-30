@@ -36,12 +36,12 @@ export default function Navbar() {
                     <Link href="/Testimonial">Testimonial</Link> */}
                     
 
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About</a></li>
-                    <li><a href='#'>Services</a></li>
-                    <li><a href='#'>WhyUs</a></li>
-                    <li><a href='#'>Team</a></li>
-                    <li><a href='#'>Testimonial</a></li>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/About'>About</a></li>
+                    <li><a href='/service'>Services</a></li>
+                    <li><a href='/blog'>WhyUs</a></li>
+                    <li><a href='/Team'>Team</a></li>
+                    <li><a href='/Testimonial'>Testimonial</a></li>
                                                             
                     <Link href="/form">
                         <button className='btn'>Login</button>

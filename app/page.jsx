@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import './globals.css'
+import './styles.css'
 import styles from './page.module.css'
 import Navbar from './Navbar/page'
 import Hero from './Hero/page'
@@ -18,7 +20,7 @@ import Mobile from './Mobile/page'
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      {/* <Navbar/> */}
       {/* <Mobile/> */}
       <Hero/>
       <About/>
@@ -27,7 +29,7 @@ export default function Home() {
       <Team/>
       <Testimonial/>
       <Cta/>
-      <Footer/>
+      {/* <Footer/> */}
        
     </main>
   )

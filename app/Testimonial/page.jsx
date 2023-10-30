@@ -1,4 +1,6 @@
 "use client"
+import '../globals.css'
+import '../styles.css'
 import Image from "next/image"
 import client1 from "@/public/images/client1.jpg"
 import client2 from "@/public/images/client2.jpg"

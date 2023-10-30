@@ -1,3 +1,5 @@
+import '../globals.css'
+import '../styles.css'
 import Image from "next/image"
 import team1 from "@/public/images/team-1.jpg";
 import team2 from "@/public/images/team-2.jpg";

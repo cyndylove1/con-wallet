@@ -3,7 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    /* height: 4400px; */
+    /* height: 4700px; */
 }
 header{
      background: rgb(107,6,156);
@@ -59,7 +59,7 @@ header{
 .fa{
     font-size: 40px;
     margin-right: 6px;
-    color: rgb(231, 190, 249)
+    color :  rgb(220, 147, 250)
 }
 
 
@@ -143,7 +143,6 @@ header{
     height: 400px;
     position: relative;
 
-
 }
 
 .img{
@@ -154,7 +153,7 @@ header{
     
 }
 /* nav-mobile section */
-.nav-mobile{
+.mobile{
     display: none;
 }
 
@@ -225,7 +224,7 @@ header{
 /* services section */
 .services{
     background-color: var(--smoke-color);
-    margin-top: 7%;
+    /* margin-top: 7%; */
     padding: 0 7%;
     height: 500px
 }
@@ -479,7 +478,7 @@ header{
 .cta-text h4{
     color: var(--white-color);
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 22%;
 }
 .cta-btn2{
     padding: 10px 20px;
@@ -497,7 +496,7 @@ header{
 }
 /* footer section */
 .footer-section{
-    background-color: var(--smoke-color);
+    background-color: rgb(231, 190, 249);
     height: 350px;
 
 }
@@ -506,9 +505,11 @@ header{
    
 }
 .logo2{
+    width: 27%;
     padding-top: 18px;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 10%;
+    color: #000;
 }
 .logo2 h2{
     margin-right: 10px;
@@ -516,7 +517,7 @@ header{
     font-weight: 700;
 }
 .footer-content{
-    margin-left: 50px;
+    /* margin-left: 30px; */
     padding-top: 30px;
 }
 .footer-content h4{
@@ -526,14 +527,23 @@ header{
 }
 .quick-links{
     margin-left: 70px;
-    padding-top: 30px;
 }
 .quick-links h5{
-    font-weight: 700;
-    padding-bottom: 10px;
-    font-size: 20px;
+    /* margin-left: 70px; */
+    padding-top: 30px;
+    
 }
-.quick-links h6:hover{
+.quick-links li {
+    list-style: none;
+    
+}
+.quick-links li a{
+    /* font-weight: 700; */
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.quick-links li a:hover{
     color: rgb(107,6,156);
     cursor: pointer;
     transition: 0.4s;
@@ -765,8 +775,8 @@ form .address:hover{
     .navbar{
         display: none;
     }
-    .nav-mobile{
-        display: none;
+    .mobile{
+        display: flex;
     }
     .main{
         height: 1100px;
@@ -1041,8 +1051,8 @@ form .address:hover{
     .logo{
         display: none;
     }
-    .nav-mobile{
-        display: none;
+    .mobile{
+        display: flex;
         /* justify-content: space-around; */
     }
 
@@ -1312,7 +1322,7 @@ form .address:hover{
     .navbar{
         display: none;
     }
-    .nav-mobile{
+    .mobile{
         display: none;
     }
 
@@ -1562,7 +1572,7 @@ form .address:hover{
     .logo{
         display: none;
     }
-    .nav-mobile{
+    .mobile{
         display: none;
     }
     .navbar{
@@ -1816,6 +1826,9 @@ form .address:hover{
         margin-right: 7%;
         
         
+    }
+    .mobile{
+        display: none;
     }
     .navbar ul{
         padding: 10px 0;

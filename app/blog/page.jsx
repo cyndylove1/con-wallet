@@ -1,3 +1,5 @@
+import '../globals.css'
+import '../styles.css'
  import Image from "next/image" 
  import blog from '@/public/images/100.png'
  export default function Blog () {

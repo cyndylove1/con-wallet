@@ -1,3 +1,5 @@
+import '../globals.css'
+import '../styles.css'
 import Image from "next/image"
 import cta from "@/public/images/laptop.png"
 export default function Cta (){

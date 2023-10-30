@@ -1,6 +1,7 @@
 'use client'
 import '../styles.css'
 import '../globals.css'
+import {GrMenu} from 'react-icons/gr'
 import {FaGoogleWallet} from 'react-icons/fa6'
 import Link from 'next/link'
 export default function Mobile() {
@@ -8,6 +9,8 @@ export default function Mobile() {
         <div>
 
         <main>
+            <div><GrMenu/></div>
+           
             
             <div className='logo1'>
                 <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
@@ -15,7 +18,7 @@ export default function Mobile() {
            </div>
 
 
-           <nav class="nav-mobile">
+           <nav class="mobile">
                <ul>
                    <li><a href='#'>Home</a></li>
                    <li><a href='#'>About</a></li>

@@ -10,7 +10,7 @@ export default function Footer (){
                 <div className='footer-container'>
                     <div className='logo2'>
                         <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur <br /> adipisicing elit. Eum doloremque, dolorem <br /> assumenda labore animi aliquid?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur  adipisicing elit. Eum doloremque, dolorem  assumenda labore animi aliquid?</p>
                         
 
                     </div>
@@ -27,14 +27,32 @@ export default function Footer (){
 
                     </div>
                     <div className='quick-links'>
-                        <h5>Quick Links</h5>
-                        <h6>Home</h6>
-                        <h6>About</h6>
+                    <h5>Quick Links</h5>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/About'>About</a></li>
+                    <li><a href='/service'>Services</a></li>
+                    <li><a href='/blog'>WhyUs</a></li>
+                    <li><a href='/Team'>Team</a></li>
+                    <li><a href='/Testimonial'>Testimonial</a></li>
+                    <li><a href='/form'>Login</a></li>
+                                                            
+                    {/* <Link href="/form">
+                        <button className='btn'>Login</button>
+                    </Link>  */}
+                        {/* <h5>Quick Links</h5>
+                        <a href="/">Home</a>
+                        <a href="/About">About</a>
+                        <a href="/service">Service</a>
+                        <a href="/blog">Why Us</a>
+                        <a href="/Team">Team</a>
+                        <a href="/Testimonial">Testimonial</a>
+                        <a href="/form">Login</a> */}
+                        {/* <h6>About</h6>
                         <h6>Service</h6>
                         <h6>Why Us</h6>
                         <h6>Team</h6>
                         <h6>Testimonial</h6>
-                        <h6>Login</h6>
+                        <h6>Login</h6> */}
 
                         
                     </div>
