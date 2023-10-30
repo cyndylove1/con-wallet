@@ -1046,13 +1046,17 @@ form .address:hover{
         width: 320px;
       }
       header{
+        /* padding: 10px 0; */
         /* display: none; */
-      }
-    .logo{
-        display: none;
+    }
+    .navbar {
+
+    }
+    .navbar ul{
+        padding: 10px;
     }
     .mobile{
-        display: flex;
+        display: none;
         /* justify-content: space-around; */
     }
 
@@ -1218,6 +1222,9 @@ form .address:hover{
 
 
     /* footer section begins here */
+    .logo2{
+        width: 80%;
+    }
     .footer-section{
         height: 820px;
     }
