@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
+import Navbar from '../Navbar/page'
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 
@@ -18,6 +19,7 @@ export default function Hero (){
 
     return(
         <div>
+            <Navbar/>
            
             
             <Swiper

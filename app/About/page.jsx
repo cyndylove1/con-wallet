@@ -1,4 +1,4 @@
- 
+ 'use client'
  import Image from "next/image"
  import '../globals.css'
 import '../styles.css'
@@ -9,12 +9,16 @@ import {TbAssembly} from "react-icons/tb"
 import {TbAsterisk} from "react-icons/tb"
 import {TbAward} from "react-icons/tb"
 import {TbBadgeFilled} from "react-icons/tb"
+import Footer from "../footer/page";
+
+// import Navbar from "../Navbar/page";
 
 
 
  export default function About () {
     return(
         <div>
+            {/* <Navbar/> */}
             <div className="about">
                 <div className="about-us">
                     <h2>HeyWallet Features</h2>
@@ -129,6 +133,7 @@ import {TbBadgeFilled} from "react-icons/tb"
                 </div>
                 
             </div>
+            <Footer/>
                
         
         </div>
