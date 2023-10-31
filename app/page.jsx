@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main>
       {/* <Navbar/> */}
-      <Mobile/>
+      {/* <Mobile/> */}
       <Hero/>
       <About/>
       <Services/>

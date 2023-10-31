@@ -1369,13 +1369,18 @@ form .address:hover{
 
     /* cta section begins here */
     .cta{
-        height: 400px;
+        height: 450px;
+    }
+    .cta-text {
+        /* margin-right: %; */
+        width: 100%;
     }
     .cta-text h4{
-        padding-left: 2%;
+        margin-right: 10%;
     }
     .cta-section{
         flex-direction: column;
+        /* margin-right: 5%; */
     }
     /* cta section ends here */
 
@@ -1416,7 +1421,7 @@ form .address:hover{
         
     }
     .form-page{
-        height: 99.6vh;
+        height: 95vh;
     }
     .form input{
         width: 90%;
@@ -1438,8 +1443,13 @@ form .address:hover{
         height: 140vh;
 
     }
-    .Sign-title h6{
+    .Sign-title{
+        margin-left: 2%;
         
+        
+    }
+    .Sign-title h4{
+        width: 120%;
     }
 
     .Sign{
