@@ -1175,7 +1175,7 @@ form .address:hover{
     }
     .Sign-title h4{
         padding: 40px 0;
-        margin-left: 25%;
+        padding-left: 5%;
         font-size: 20px;
     }
     /* sign up section ends here */
@@ -1440,7 +1440,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 150vh;
+        height: 170vh;
 
     }
     .Sign-title{
@@ -1449,8 +1449,8 @@ form .address:hover{
         
     }
     .Sign-title h4{
-        width: 96%;
-        margin-left: 3%;
+        /* width: 96%; */
+        /* margin-left: 3%; */
     }
 
     .Sign{
@@ -1458,7 +1458,7 @@ form .address:hover{
     }
     .title{
         flex-direction: column;
-        padding-top: 10%;
+        padding-top: 20%;
     }
     .member h6{
         padding: 20px 0;
@@ -1489,8 +1489,8 @@ form .address:hover{
         margin-top: 10%;
     }
     .Sign-title h4{
-        padding: 30px 50px;
-        font-size: 30px;
+        padding: 0 50px;
+        font-size: 20px;
     }
     /* sign up section ends here */
     
@@ -1971,7 +1971,7 @@ form .address:hover{
     .member h6{
         padding: 20px 0;
         width: 80%;
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         margin-left: 5%;
     }
