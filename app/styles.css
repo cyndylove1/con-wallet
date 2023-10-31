@@ -1440,7 +1440,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 170vh;
+        height: 180vh;
 
     }
     .Sign-title{
@@ -1490,7 +1490,7 @@ form .address:hover{
     }
     .Sign-title h4{
         padding: 0 50px;
-        font-size: 20px;
+        font-size: 25px;
     }
     /* sign up section ends here */
     
