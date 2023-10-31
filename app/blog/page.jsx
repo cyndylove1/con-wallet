@@ -3,7 +3,7 @@ import '../globals.css'
 import '../styles.css'
  import Image from "next/image" 
  import blog from '@/public/images/100.png'
- import Footer from '../footer/page'
+ 
  export default function Blog () {
     return(
         <div>
@@ -61,7 +61,7 @@ import '../styles.css'
                     
                 
             </div>
-            <Footer/>
+            
         </div>
     )
 }

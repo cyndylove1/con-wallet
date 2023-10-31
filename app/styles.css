@@ -1127,12 +1127,27 @@ form .address:hover{
     }
     .title{
         flex-direction: column;
-    }
-    .member h6{
-        padding: 20px 0;
-        font-size: 16px;
+        padding-top: 10%;
+        margin-right: 30%;
         text-align: center;
-        margin-left: 1%;
+    }
+.Sign-title h4 {
+    /* margin-right: 45%; */
+    width: 100%;
+}
+
+    .member{
+        width: 140%;
+        text-align: center;
+        
+    }
+    /* . */
+    .member h6{
+        padding: 15px 0;
+        /* width: 230%; */
+        font-size: 15px;
+        /* text-align: center; */
+        /* margin-right: 25%; */
     }
     form .sign-input {
         margin-left: 5%;
@@ -1141,7 +1156,7 @@ form .address:hover{
 
     }
     form .sign-label{
-        width: 100%;
+        /* width: 100%; */
        
     }
     form .address{
@@ -1175,7 +1190,7 @@ form .address:hover{
         width: 320px;
       }
       header{
-        display: none;
+        display: flex;
         /* justify-content: space-between; */
         /* padding: 10px 0; */
         /* display: none; */
@@ -1401,7 +1416,7 @@ form .address:hover{
         
     }
     .form-page{
-        height: 100vh;
+        height: 99.6vh;
     }
     .form input{
         width: 90%;
@@ -1423,19 +1438,23 @@ form .address:hover{
         height: 140vh;
 
     }
+    .Sign-title h6{
+        
+    }
 
     .Sign{
         flex-direction: column;
     }
     .title{
         flex-direction: column;
+        padding-top: 10%;
     }
     .member h6{
         padding: 20px 0;
         width: 80%;
         font-size: 15px;
         text-align: center;
-        margin-left: 5%;
+        margin-left: 6%;
     }
     form .sign-input {
         margin-left: 5%;
@@ -1444,7 +1463,7 @@ form .address:hover{
 
     }
     form .sign-label{
-        width: 100%;
+        /* width: 100%; */
     }
     form .address{
         margin-bottom: 0;
@@ -1695,7 +1714,7 @@ form .address:hover{
 
     }
     form .sign-label{
-        width: 100%;
+        /* width: 100%; */
     }
     
     form .address{
@@ -1947,7 +1966,7 @@ form .address:hover{
 
     }
     form .sign-label{
-        width: 100%;
+        /* width: 100%; */
     }
      form .address{
         margin-left: 5%;

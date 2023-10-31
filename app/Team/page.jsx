@@ -10,7 +10,7 @@ import {FaFacebookF} from "react-icons/fa6";
 import {FaTwitter} from "react-icons/fa6";
 import {FaLinkedinIn} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa6"
-import Footer from '../footer/page';
+
 export default function Team () {
     return(
         <div>
@@ -80,7 +80,7 @@ export default function Team () {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            
 
         </div>
     )

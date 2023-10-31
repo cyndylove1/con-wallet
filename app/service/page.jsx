@@ -5,7 +5,7 @@ import Image from "next/image"
 import icon1 from "@/public/images/s1.png"
 import icon2 from "@/public/images/s2.png"
 import icon3 from "@/public/images/s3.png"
-import Footer from '../footer/page'
+
 export default function Services () {
     return(
         <div>
@@ -44,7 +44,7 @@ export default function Services () {
                     {/* <button className="view">View All</button> */}
                 </div>
             </div>
-            <Footer/>
+            
         </div>
     )
 }

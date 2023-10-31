@@ -11,7 +11,6 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import {Navigation, Autoplay } from 'swiper/modules';
-import Footer from '../footer/page'
 
 export default function Testimonial(){
     return(
@@ -134,7 +133,7 @@ export default function Testimonial(){
             </SwiperSlide>
             </Swiper>
 
-            <Footer/>
+            
             
         </div>
         

@@ -9,7 +9,7 @@ import {TbAssembly} from "react-icons/tb"
 import {TbAsterisk} from "react-icons/tb"
 import {TbAward} from "react-icons/tb"
 import {TbBadgeFilled} from "react-icons/tb"
-import Footer from "../footer/page";
+
 
 // import Navbar from "../Navbar/page";
 
@@ -133,7 +133,8 @@ import Footer from "../footer/page";
                 </div>
                 
             </div>
-            <Footer/>
+            
+            
                
         
         </div>
