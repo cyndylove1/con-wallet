@@ -1421,7 +1421,7 @@ form .address:hover{
         
     }
     .form-page{
-        height: 95vh;
+        height: 100vh;
     }
     .form input{
         width: 90%;
@@ -1440,16 +1440,17 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 140vh;
+        height: 150vh;
 
     }
     .Sign-title{
-        margin-left: 2%;
+        /* margin-left: 2%; */
         
         
     }
     .Sign-title h4{
-        width: 120%;
+        width: 96%;
+        margin-left: 3%;
     }
 
     .Sign{
@@ -1461,10 +1462,10 @@ form .address:hover{
     }
     .member h6{
         padding: 20px 0;
-        width: 80%;
+        width: 100%;
         font-size: 15px;
         text-align: center;
-        margin-left: 6%;
+        margin-left: 4%;
     }
     form .sign-input {
         margin-left: 5%;
@@ -1700,7 +1701,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 160vh;
+        height: 180vh;
 
     }
 
@@ -1709,6 +1710,7 @@ form .address:hover{
     }
     .title{
         flex-direction: column;
+        padding-top: 10%;
     }
     .member h6{
         padding: 20px 0;
@@ -1738,6 +1740,7 @@ form .address:hover{
     }
     .register{
         margin-top: 10%;
+        margin-right: 5%;
     }
     .Sign-title h4{
         padding: 30px 50px;
@@ -1953,7 +1956,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 130vh;
+        height: 120vh;
     }
 
     .Sign{
@@ -1961,7 +1964,10 @@ form .address:hover{
     }
     .title{
         flex-direction: column;
+        padding-top: 10%;
+       
     }
+    
     .member h6{
         padding: 20px 0;
         width: 80%;
@@ -2106,11 +2112,11 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 160vh;
+        height: 180vh;
     }
 
     .Sign{
-        /* flex-direction: column; */
+        flex-direction: row;
     }
     .member h6{
         padding: 20px 0;
